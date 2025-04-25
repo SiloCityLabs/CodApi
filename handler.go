@@ -24,9 +24,9 @@ func SingleGame(w http.ResponseWriter, r *http.Request) {
 
     name := vars["name"]
 
-    for _, grocery := range games {
-        if grocery.Name == name {
-            json.NewEncoder(w).Encode(grocery)
+    for _, game := range games {
+        if game.Name == name {
+            json.NewEncoder(w).Encode(game)
         }
     }
 }
