@@ -1,6 +1,5 @@
-SHELL := /bin/bash
-
 .PHONY: all build run deps clean db-build db-run db-stop db-rm
+SHELL := /bin/bash
 
 BINARY_NAME := codapi
 GO_BUILD_FLAGS := -ldflags="-s -w" # Optional: strip debug info

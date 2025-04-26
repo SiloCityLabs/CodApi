@@ -1,0 +1,2 @@
+CREATE TABLE
+    cod_modes (id INTEGER PRIMARY KEY, name VARCHAR(100));
